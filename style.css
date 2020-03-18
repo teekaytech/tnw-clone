@@ -6,7 +6,9 @@ body {
 }
 
 .navbar {
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
   display: flex;
   justify-content: space-between;
 }
@@ -19,5 +21,49 @@ ul li {
   list-style-type: none;
   display: inline;
   text-transform: uppercase;
+  padding-top: 2px;
+  padding-right: 10px;
+  padding-bottom: 2px;
 }
+
+.info {
+  width: 100%;
+  background-color: yellow;
+  padding-left: 40px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.latest-section {
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 35vh 35vh;
+  grid-gap: 7px;
+}
+
+.article-1 {
+  background-color: blue;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg') no-repeat;
+  background-size: cover;
+
+}
+
+.article-2 {
+  background-color: green;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.article-3 {
+  background-color: tomato;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+
 
