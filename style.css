@@ -271,6 +271,69 @@ ul li a:hover {
   font-size: medium;
 }
 
-.fundings img {
-  height: 12vh;
+.fundings {
+  height: 35vh;
+  padding: 0;
+  background-color: #fffaf8;
+  position: relative;
+}
+
+.funding-head {
+  display: block;
+  height: 40%;
+  background-color: rgb(253, 208, 230);
+  color: white;
+}
+
+.f-head-img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20%;
+}
+
+.funding-title {
+  display: block;
+  padding: 10px 0 10px 80px;
+  background-color: #f42;
+  font-size: large;
+  margin: 0;
+}
+
+.funding-amount,
+.funding-series {
+  display: block;
+  padding-left: 80px;
+  color: black;
+  font-size: 12px;
+}
+
+.funding-series {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.funding-amount {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+
+.funding-details {
+  padding: 12px 10px;
+  border-bottom: 1px solid #f42;
+}
+
+.funding-details a {
+  color: #000;
+  display: block;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.funding-comments {
+  display: block;
+  font-size: small;
+  margin: 10px 5px 0 15px;
+  color: black;
 }
