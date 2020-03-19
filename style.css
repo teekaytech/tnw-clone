@@ -96,17 +96,24 @@ ul li a:hover {
   background: linear-gradient(175deg, rgba(255,0,0,0.5) 0%, rgba(125,0,0,0.2721288344439339) 50%, rgba(0,0,0,1) 100%);
 }
 
-.article-cover-logo {
-  background: transparent url('assets/tnw.svg') no-repeat;
-  color: #fff;
-  background-size: contain;
-}
-
+.article-cover-logo,
 .cover-date,
 .cover-title {
   position: absolute;
   color: white;
 }
+
+.article-cover-logo {
+  width: 50%;
+  height: 50%;
+  background: url('assets/tnw.svg') no-repeat;
+  background-size: contain;
+}
+
+.article-cover-logo img {
+  size: 500vh;
+}
+
 
 .cover-date {
   top: 15px;
@@ -144,5 +151,4 @@ ul li a:hover {
   color: white;
   cursor: pointer;
 }
-
 
