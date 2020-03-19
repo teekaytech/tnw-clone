@@ -70,23 +70,24 @@ ul li a:hover {
 }
 
 .article-1 {
-  background-color: blue;
   grid-column: 1;
   grid-row: 1 / span 2;
-  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Covid-malware-796x418.png') no-repeat;
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Covid-malware-796x418.png') no-repeat center;
   background-size: cover;
 }
 
 .article-2 {
-  background-color: green;
   grid-column: 2;
   grid-row: 1;
+  background:  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-13-796x417.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .article-3 {
-  background-color: tomato;
   grid-column: 2;
   grid-row: 2;
+  background:  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-3-796x417.png") no-repeat center;
+  background-size: cover;
 }
 
 .article-cover-story {
@@ -94,6 +95,10 @@ ul li a:hover {
   padding: 5px;
   height: 100%;
   background: linear-gradient(175deg, rgba(255,0,0,0.5) 0%, rgba(125,0,0,0.2721288344439339) 50%, rgba(0,0,0,1) 100%);
+}
+
+.side-article {
+  background: linear-gradient(180deg, rgba(255,0,0,0.06764704172684699) 0%, rgba(0,0,0,0.21330530503216916) 40%, rgba(0,0,0,1) 100%);
 }
 
 .article-cover-logo,
@@ -108,12 +113,8 @@ ul li a:hover {
   height: 50%;
   background: url('assets/tnw.svg') no-repeat;
   background-size: contain;
+  margin: 15px 0 0 15px;
 }
-
-.article-cover-logo img {
-  size: 500vh;
-}
-
 
 .cover-date {
   top: 15px;
@@ -131,9 +132,15 @@ ul li a:hover {
   font-size: medium;
 }
 
-.cover-title h3 {
-  font-size: 60px;
+.article-1 h3 {
+  font-size: 55px;
 }
+
+.article-2 h3,
+.article-3 h3 {
+  font-size: 25px;
+}
+
 
 .cover-details {
   display: inline-block;
