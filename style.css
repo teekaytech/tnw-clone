@@ -148,7 +148,6 @@ ul li a:hover {
   font-size: 25px;
 }
 
-
 .cover-details {
   display: inline-block;
   padding-top: 10px;
@@ -166,6 +165,8 @@ ul li a:hover {
   cursor: pointer;
 }
 
+/* Latest news section */
+
 .latest-news {
   margin: auto;
   width: 85%;
@@ -179,13 +180,16 @@ ul li a:hover {
 
 .news {
   width: 23.7%;
-  border: 1px solid black;
-  min-height: 30vh;
+  margin: 10px 0 20px 0;
+}
+
+.news img {
+  height: 22vh;
 }
 
 .latest-news-header a {
   display: inline-block;
-  padding: 25px 0 25px 0;
+  padding: 30px 0 15px 0;
   font-size: x-large;
   color: red;
 }
@@ -195,8 +199,21 @@ ul li a:hover {
 }
 
 .news-title {
-
+  display: block;
+  padding: 7px 0;
+  color: black;
 }
-.news-1 {
- 
+
+.news-title:hover {
+  color: red;
+}
+
+.news-duration,
+.news-duration a {
+  color: grey;
+  font-size: medium;
+}
+
+.news-duration a:hover {
+  color: rgb(68, 68, 68);
 }
