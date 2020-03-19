@@ -1,4 +1,8 @@
-body,ul {
+body,
+ul,
+p,
+div,
+h3 {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,7 +12,6 @@ body,ul {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 /* Navbar styling */
@@ -24,7 +27,7 @@ ul li {
   list-style-type: none;
   display: inline-block;
   text-transform: uppercase;
-  padding: 12px 22px 12px 20px;
+  padding: 12px 0px 12px 20px;
 }
 
 ul li a {
@@ -47,12 +50,13 @@ ul li a:hover {
   color: rgb(87, 82, 82);
 }
 
+
+/* Main section */
+/* Latest Articles */
+
 .info {
-  width: 100%;
-  background-color: yellow;
-  padding-left: 40px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  background-color: #fd3;
+  padding: 5px 0 5px 20px;
 }
 
 .latest-section {
@@ -60,18 +64,17 @@ ul li a:hover {
   margin-left: 5px;
   margin-right: 5px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 66% 33.1%;
   grid-template-rows: 35vh 35vh;
-  grid-gap: 7px;
+  grid-gap: 0.9%;
 }
 
 .article-1 {
   background-color: blue;
   grid-column: 1;
   grid-row: 1 / span 2;
-  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg') no-repeat;
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Covid-malware-796x418.png') no-repeat;
   background-size: cover;
-
 }
 
 .article-2 {
@@ -86,5 +89,60 @@ ul li a:hover {
   grid-row: 2;
 }
 
+.article-cover-story {
+  position: relative;
+  padding: 5px;
+  height: 100%;
+  background: linear-gradient(175deg, rgba(255,0,0,0.5) 0%, rgba(125,0,0,0.2721288344439339) 50%, rgba(0,0,0,1) 100%);
+}
+
+.article-cover-logo {
+  background: transparent url('assets/tnw.svg') no-repeat;
+  color: #fff;
+  background-size: contain;
+}
+
+.cover-date,
+.cover-title {
+  position: absolute;
+  color: white;
+}
+
+.cover-date {
+  top: 15px;
+  right: 15px;
+}
+
+.cover-title {
+  left: 15px;
+  bottom: 15px;
+}
+
+.cover-title a {
+  color: white;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.cover-title h3 {
+  font-size: 60px;
+}
+
+.cover-details {
+  display: inline-block;
+  padding-top: 10px;
+  color: grey;
+  font-size: medium;
+}
+
+.cover-details a {
+  text-transform: unset;
+  color: grey;
+}
+.cover-title a:hover,
+.cover-title h3:hover {
+  color: white;
+  cursor: pointer;
+}
 
 
