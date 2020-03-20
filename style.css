@@ -46,6 +46,47 @@ ul li a {
   color: lightgray;
 }
 
+.cover-title a {
+  color: white;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.cover-details a {
+  text-transform: unset;
+  color: grey;
+}
+
+.latest-news-header a {
+  display: inline-block;
+  padding: 30px 0 15px 0;
+  font-size: x-large;
+  color: red;
+}
+
+.news-duration,
+.news-duration a {
+  color: grey;
+  font-size: medium;
+}
+
+.latest-funding-header,
+.latest-funding-header a,
+.funding-list a {
+  color: red;
+}
+
+.funding-list a {
+  font-size: medium;
+}
+
+.funding-details a {
+  color: #000;
+  display: block;
+  padding: 5px;
+  font-size: 12px;
+}
+
 ul li a:hover {
   color: black;
 }
@@ -146,12 +187,6 @@ main {
   bottom: 15px;
 }
 
-.cover-title a {
-  color: white;
-  text-transform: uppercase;
-  font-size: medium;
-}
-
 .article-1 h3 {
   font-size: 55px;
 }
@@ -166,11 +201,6 @@ main {
   padding-top: 10px;
   color: grey;
   font-size: medium;
-}
-
-.cover-details a {
-  text-transform: unset;
-  color: grey;
 }
 
 .cover-title a:hover,
@@ -204,13 +234,6 @@ main {
   height: 22vh;
 }
 
-.latest-news-header a {
-  display: inline-block;
-  padding: 30px 0 15px 0;
-  font-size: x-large;
-  color: red;
-}
-
 .latest-news-header a:hover,
 .latest-funding-header a:hover {
   color: black;
@@ -226,12 +249,6 @@ main {
   color: red;
 }
 
-.news-duration,
-.news-duration a {
-  color: grey;
-  font-size: medium;
-}
-
 .news-duration a:hover {
   color: rgb(68, 68, 68);
 }
@@ -240,12 +257,6 @@ main {
 
 .latest-funding {
   margin-top: 30px;
-}
-
-.latest-funding-header,
-.latest-funding-header a,
-.funding-list a {
-  color: red;
 }
 
 .latest-funding-header {
@@ -279,10 +290,6 @@ main {
   list-style-type: none;
   display: inline-block;
   padding: 0 5px;
-}
-
-.funding-list a {
-  font-size: medium;
 }
 
 .fundings {
@@ -336,13 +343,6 @@ main {
 .funding-details {
   padding: 12px 10px;
   border-bottom: 1px solid #f42;
-}
-
-.funding-details a {
-  color: #000;
-  display: block;
-  padding: 5px;
-  font-size: 12px;
 }
 
 .funding-comments {
