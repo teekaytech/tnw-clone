@@ -246,6 +246,7 @@ main {
 }
 
 @media only screen and (max-width: 1024px) {
+
   .cover-date,
   .article-cover-logo {
     display: none;
@@ -499,4 +500,33 @@ main {
   .funding-series {
     font-size: 14px;
   }
+}
+
+/* Popular articles section */
+
+.popular-heading {
+  color: red;
+}
+
+.popular-trigger {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 200px;
+  background-image: url('img/facebook-dark.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+.trigger-header {
+  margin-bottom: 0;
+}
+
+.popular-item1 {
+  width: 30%;
+}
+
+.trigger-list {
+  display: flex;
 }
