@@ -504,6 +504,12 @@ main {
 
 /* Popular articles section */
 
+.popular-main-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 10px;
+}
+
 .popular-heading {
   color: red;
 }
@@ -512,19 +518,15 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 200px;
+  height: 250px;
   background-image: url('img/facebook-dark.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   color: white;
 }
 
 .trigger-header {
   margin-bottom: 0;
-}
-
-.popular-item1 {
-  width: 30%;
 }
 
 .trigger-list {
