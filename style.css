@@ -42,7 +42,7 @@ img {
 
 .navbar-list li {
   display: inline-block;
-  padding: 12px 0 12px 20px;
+  padding: 12px 0 12px 10px;
   list-style-type: none;
   text-transform: uppercase;
 }
@@ -99,7 +99,7 @@ ul li a:hover {
 .itm2 {
   display: flex;
   align-items: center;
-  margin-right: 20px;  
+  margin-right: 20px;
 }
 
 .itm2:hover {
@@ -109,8 +109,8 @@ ul li a:hover {
 
 .tnw-logo {
   display: none;
-  width: 70px;
-  height: 50px;
+  width: 50px;
+  height: 40px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -118,6 +118,22 @@ ul li a:hover {
     display: block;
   }
 }
+
+.fa-bars {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .fa-bars {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .navbar-items {
+    display: none;
+  }
+}
+
 
 /* Main section */
 
