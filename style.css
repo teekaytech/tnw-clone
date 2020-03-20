@@ -69,6 +69,7 @@ ul li a:hover {
 main {
   margin-top: 65px;
 }
+
 .info {
   position: fixed;
   z-index: 1;
@@ -98,14 +99,14 @@ main {
 .article-2 {
   grid-column: 2;
   grid-row: 1;
-  background:  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-13-796x417.jpg") no-repeat center;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-13-796x417.jpg") no-repeat center;
   background-size: cover;
 }
 
 .article-3 {
   grid-column: 2;
   grid-row: 2;
-  background:  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-3-796x417.png") no-repeat center;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-3-796x417.png") no-repeat center;
   background-size: cover;
 }
 
@@ -113,11 +114,11 @@ main {
   position: relative;
   padding: 5px;
   height: 100%;
-  background: linear-gradient(175deg, rgba(255,0,0,0.5) 0%, rgba(125,0,0,0.2721288344439339) 50%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(175deg, rgba(255, 0, 0, 0.5) 0%, rgba(125, 0, 0, 0.2721288344439339) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
 .side-article {
-  background: linear-gradient(180deg, rgba(255,0,0,0.06764704172684699) 0%, rgba(0,0,0,0.21330530503216916) 40%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.06764704172684699) 0%, rgba(0, 0, 0, 0.21330530503216916) 40%, rgba(0, 0, 0, 1) 100%);
 }
 
 .article-cover-logo,
@@ -171,6 +172,7 @@ main {
   text-transform: unset;
   color: grey;
 }
+
 .cover-title a:hover,
 .cover-title h3:hover {
   color: white;
