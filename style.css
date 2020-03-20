@@ -30,7 +30,7 @@ img {
   z-index: 1;
   background-color: white;
   padding: 0;
-  margin: 5pxf 5px 5px 0;
+  margin: 5px 5px 5px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -39,7 +39,7 @@ img {
   list-style-type: none;
   display: inline-block;
   text-transform: uppercase;
-  padding: 12px 0px 12px 20px;
+  padding: 12px 0 12px 20px;
 }
 
 ul li a {
@@ -62,8 +62,8 @@ ul li a:hover {
   color: rgb(87, 82, 82);
 }
 
-
 /* Main section */
+
 /* Latest Articles */
 
 main {
