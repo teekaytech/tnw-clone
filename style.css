@@ -117,10 +117,10 @@ ul li a:hover {
   .tnw-logo {
     display: block;
   }
-}
 
-.fa-bars {
-  display: none;
+  .fa-bars {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
