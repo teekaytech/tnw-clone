@@ -261,7 +261,7 @@ main {
 @media only screen and (max-width: 768px) {
   .latest-section {
     grid-template-columns: 1fr;
-    grid-template-rows: 40vh 40vh 40vh;
+    grid-template-rows: 35vh 35vh 35vh;
   }
 
   .article-1 {
@@ -277,6 +277,10 @@ main {
   .article-3 {
     grid-column: 1;
     grid-row: 3;
+  }
+
+  h3.latest-articles-header {
+    font-size: 22px;
   }
 }
 
