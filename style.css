@@ -139,7 +139,6 @@ ul li a:hover {
   }
 }
 
-
 /* Main section */
 
 /* Latest Articles */
@@ -247,7 +246,6 @@ main {
 }
 
 @media only screen and (max-width: 1024px) {
-
   .cover-date,
   .article-cover-logo {
     display: none;
@@ -301,7 +299,6 @@ main {
 .news-container,
 .fundings-container {
   display: flex;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
 }
 
@@ -341,9 +338,9 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
-
   .news {
     display: flex;
+    width: 100%;
   }
 
   .news-title {
@@ -355,35 +352,20 @@ main {
     width: 70px;
     height: 70px;
   }
-
-  .news {
-    width: 100%;
-  }
 }
-
-
 
 /* Latest funding section */
 
 .latest-funding {
   margin: 0 auto;
+  margin-top: 10px;
   padding-top: 50px;
   width: 90%;
 }
 
 .fundings-container {
   display: flex;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
-}
-
-.fundings {
-  width: 23.7%;
-  margin: 10px 10px 20px 0;
-}
-
-.latest-funding {
-  margin-top: 10px;
 }
 
 .latest-funding-header {
@@ -418,6 +400,8 @@ main {
   padding: 0;
   background-color: #fffaf8;
   position: relative;
+  width: 23.7%;
+  margin: 10px 10px 20px 0;
 }
 
 .funding-head {
@@ -474,7 +458,6 @@ main {
 }
 
 @media only screen and (max-width: 1024px) {
-
   .fundings-container {
     justify-content: space-between;
   }
@@ -497,7 +480,6 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
-
   .latest-funding-nav li {
     display: block;
     border-right: unset;
@@ -517,6 +499,4 @@ main {
   .funding-series {
     font-size: 14px;
   }
-
-  
 }
