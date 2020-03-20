@@ -24,22 +24,27 @@ img {
 /* Navbar styling */
 
 .navbar {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  background-color: white;
-  padding: 0;
-  margin: 5px 5px 5px 0;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  padding: 0;
+  margin: 5px 5px 5px 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
 }
 
 .navbar-list li {
-  list-style-type: none;
   display: inline-block;
-  text-transform: uppercase;
   padding: 12px 0 12px 20px;
+  list-style-type: none;
+  text-transform: uppercase;
 }
 
 ul li a {
@@ -101,6 +106,11 @@ ul li a:hover {
 .itm2:hover {
   cursor: pointer;
   color: rgb(87, 82, 82);
+}
+
+.tnw-logo {
+  width: 70px;
+  height: 50px;
 }
 
 /* Main section */
