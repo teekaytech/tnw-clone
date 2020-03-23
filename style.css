@@ -636,7 +636,7 @@ ul li a:hover {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
-  background-color: #f5c6e8;
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 .popular-latest-img {
@@ -647,6 +647,19 @@ ul li a:hover {
 .popular-latest-container {
   margin-left: 10px;
   width: 70%;
+}
+
+.popular-latest-link {
+  display: block;
+  color: #f42;
+  padding-bottom: 10px;
+}
+
+.populer-latest-latest {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #f42;
 }
 
 /* Latest deals section */
