@@ -3,8 +3,8 @@
 This is a clone application of The Next Web homepage.
 <br>
 <br>
-<img src="img/short_one.jpg" width="300"> 
-<img src="img/short_two.jpg" width="300"> 
+<img src="img/screen_one.jpg" width="300"> 
+<img src="img/screen_two.jpg" width="300"> 
 
 <br>
 
