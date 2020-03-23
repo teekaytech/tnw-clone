@@ -58,18 +58,22 @@ img {
 .navbar {
   display: flex;
   justify-content: space-between;
-  position: fixed;
   padding: 0;
   margin: 0 5px 5px 0;
-  top: 30px;
   width: 100%;
-  z-index: 1;
   background-color: white;
 }
 
 .navbar-list {
   display: flex;
   align-items: center;
+}
+
+
+.info {
+  width: 100%;
+  background-color: #fd3;
+  padding: 5px 0 5px 20px;
 }
 
 .navbar-list li {
@@ -174,24 +178,19 @@ ul li a:hover {
   .navbar-items {
     display: none;
   }
+
+  .top-navbar {
+    display: none;
+  }
+
+  .info {
+    display: none;
+  }
 }
 
 /* Main section */
 
 /* Latest Articles */
-
-main {
-  margin-top: 65px;
-}
-
-.info {
-  position: fixed;
-  z-index: 1;
-  top: 35px;
-  width: 100%;
-  background-color: #fd3;
-  padding: 5px 0 5px 20px;
-}
 
 .latest-section {
   margin-top: 3px;
