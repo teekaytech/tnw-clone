@@ -693,6 +693,10 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+  .footer-icons {
+    width: 80%;
+  }
+
   .footer-icon {
     margin-right: 3%;
   }
