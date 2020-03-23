@@ -546,16 +546,45 @@ main {
 .latest-deals {
   width: 90%;
   margin: 0 auto;
+  margin-top: 50px;
+}
+
+.latest-deals-header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .deals-container {
   display: grid;
-  margin-top: 50px;
+  margin-top: 10px;
   grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
   grid-template-rows: repeat(2, minmax(30vh, 1fr));
   grid-gap: 2%;
 }
 
-.deals {
+/* .deals {
   border: 1px solid green;
+} */
+
+.deal-header {
+  display: block;
+  font-size: 15px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+.deal-header:hover {
+  color: red;
+}
+
+.deal-price {
+  color: grey;
+  font-size: 15px;
+}
+
+.deal-price-old {
+  color: lightgrey;
+  text-decoration: line-through;
+  padding-right: 10px;
 }
