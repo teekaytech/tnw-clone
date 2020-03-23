@@ -730,9 +730,14 @@ main {
 .footer-lower {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100px;
   background-color: black;
+}
+
+.footer-lower-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 
 .footer-lower-text {
@@ -745,11 +750,11 @@ main {
 }
 
 .footer-tnw-logo {
-  width: 3%;
+  width: 40px;
 }
 
 .footer-lower-stackpath {
-  width: 5%;
+  width: 60px;
 }
 
 @media only screen and (max-width: 768px) {
