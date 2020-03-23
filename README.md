@@ -1,4 +1,4 @@
-# New York Times - Clone
+# TNW clone
 
 This is a clone application of The Next Web homepage.
 <br>
