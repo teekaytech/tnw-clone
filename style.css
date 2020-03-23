@@ -355,7 +355,7 @@ main {
 
   .news img {
     margin-right: 10px;
-    width: 70px;
+    width: 100px;
     height: 70px;
   }
 }
@@ -737,7 +737,7 @@ main {
 .footer-lower-container {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .footer-lower-text {
