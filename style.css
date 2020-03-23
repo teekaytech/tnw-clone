@@ -688,6 +688,10 @@ main {
   background-color: #333;
 }
 
+.footer-lower-text {
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .footer-icon {
     margin-right: 3%;
