@@ -515,6 +515,7 @@ main {
 }
 
 .popular-heading {
+  margin-bottom: 20px;
   color: red;
 }
 
@@ -535,11 +536,52 @@ main {
 }
 
 .trigger-header {
-  margin-bottom: 0;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
 
 .trigger-list {
   display: flex;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  list-style-type: none;
+  color: #666;
+}
+
+.trigger-author {
+  margin-right: 5px;
+}
+
+.trigger-header-anchor {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: white;
+}
+
+.trigger-header-anchor:hover {
+  text-decoration: underline;
+}
+
+.trigger-header-link {
+  margin-left: 10px;
+}
+
+.popular-related {
+  margin-left: 15px;
+}
+
+.popular-related-item {
+  margin-bottom: 10px;
+}
+
+.
+
+.popular-latest-img {
+  height:50px;
+  width: 50px;
 }
 
 /* Latest deals section */
