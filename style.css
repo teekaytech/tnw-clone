@@ -510,12 +510,13 @@ main {
   margin: auto;
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
   grid-gap: 20px;
 }
 
 .popular-heading {
   margin-bottom: 20px;
+  font-size: 2rem;
   color: red;
 }
 
