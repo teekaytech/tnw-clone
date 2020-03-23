@@ -577,11 +577,22 @@ main {
   margin-bottom: 10px;
 }
 
-.
+.popular-latest {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5c6e8;
+}
 
 .popular-latest-img {
-  height:50px;
-  width: 50px;
+  max-width: 20%;
+  height: auto;
+}
+
+.popular-latest-container {
+  margin-left: 10px;
+  width: 70%;
 }
 
 /* Latest deals section */
