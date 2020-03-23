@@ -663,7 +663,33 @@ main {
 
 .footer-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 40%;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.footer-icon {
+  margin-right: 10%;
+  cursor: pointer;
+}
+
+.footer-anchor {
+  text-transform: uppercase;
+  color: black;
+  margin-right: 10px;
+}
+
+.footer-lower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-icon {
+    margin-right: 3%;
+  }
 }
