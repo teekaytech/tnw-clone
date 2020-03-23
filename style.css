@@ -16,6 +16,43 @@ img {
   width: 100%;
 }
 
+/* Top navbar */
+
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  background-color: black;
+}
+
+.top-navbar-left,
+.top-navbar-right {
+  display: flex;
+  list-style-type: none;
+}
+
+.top-navbar-right {
+  width: 250px;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.top-navbar-left {
+  width: 400px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.top-navbar-item {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.top-navbar-item:hover {
+  color: white;
+}
+
 /* Navbar styling */
 
 .navbar {
@@ -24,7 +61,7 @@ img {
   position: fixed;
   padding: 0;
   margin: 0 5px 5px 0;
-  top: 0;
+  top: 30px;
   width: 100%;
   z-index: 1;
   background-color: white;
@@ -246,6 +283,7 @@ main {
 }
 
 @media only screen and (max-width: 1024px) {
+
   .cover-date,
   .article-cover-logo {
     display: none;
