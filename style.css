@@ -508,6 +508,7 @@ main {
 .popular-main-container {
   width: 90%;
   margin: auto;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 20px;
@@ -529,7 +530,7 @@ main {
   height: 250px;
   background-image: url('img/facebook-dark.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   color: white;
 }
 
