@@ -3,9 +3,7 @@
 This is a clone application of The Next Web homepage.
 <br>
 <br>
-<img src="img/screen_one.jpg" width="300"> 
-<img src="img/screen_two.jpg" width="300"> 
-
+<img src="img/tnw-screenshot.png" width="300"> 
 <br>
 
 In this project, our aim here wasn’t to produce an exact replica of The Next Web homepage, but rather to focus on how to use media queries for responsiveness CSS.
