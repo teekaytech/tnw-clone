@@ -708,7 +708,8 @@ main {
 }
 
 .footer-icon {
-  margin-right: 10%;
+  margin-right: 15px;
+  margin-left: 15px;
   cursor: pointer;
 }
 
@@ -730,12 +731,19 @@ main {
   text-align: center;
 }
 
+
+
 @media only screen and (max-width: 768px) {
   .footer-icons {
     width: 80%;
   }
 
   .footer-icon {
-    margin-right: 3%;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .footer-links {
+    font-size: 12px;
   }
 }
