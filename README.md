@@ -17,7 +17,7 @@ There are many elements on The Next Web homepage which are produced with Javascr
   * W3C Validator
 
 ## Live demo
-https://rawcdn.githack.com/teekaytech/tnw-clone/c832d09ab3bcbacea37d19c0e9ecbb0bb1b91a7c/index.html
+https://rawcdn.githack.com/teekaytech/tnw-clone/def32bc411274c1dcced8bd831f5c587a8c0daeb/index.html
 
 ## Getting started
 **For this project, we tried our best to recreate The Next Web homepage. The main aim is to ensure responsiveness when the page is viewed on tablets and mobile phones using media queries, so functionality is not a priority.**
