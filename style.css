@@ -153,16 +153,15 @@ ul li a:hover {
   color: rgb(87, 82, 82);
 }
 
-.tnw-logo-container {
-  margin: 0;
-  align-self: flex-start;
+#tnw-logo-container {
+  padding-left: 0;
 }
 
 .tnw-logo {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-image: linear-gradient(to right bottom, rgb(204, 0, 153), rgb(255, 68, 34) 85%);
-  width: 90px;
+  width: 120px;
   height: 40px;
 }
 
