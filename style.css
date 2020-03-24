@@ -216,7 +216,7 @@ ul li a:hover {
 .article-1 {
   grid-column: 1;
   grid-row: 1 / span 2;
-  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Covid-malware-796x418.png') no-repeat center;
+  background: url('https://cdn.abcotvs.com/dip/images/5988555_coronavirus-thumb-img-COVID-01.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -305,6 +305,10 @@ ul li a:hover {
   .article-2 h3,
   .article-3 h3 {
     font-size: 16px;
+  }
+
+  .article-cover-story {
+    background: none;
   }
 }
 
