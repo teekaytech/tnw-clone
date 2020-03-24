@@ -1,36 +1,32 @@
-# New York Times - Clone
+# TNW clone
 
-This is a clone application of New York Times.
+This is a clone application of The Next Web homepage.
 <br>
 <br>
-<img src="img/short_one.jpg" width="300"> 
-<img src="img/short_two.jpg" width="300"> 
-<img src="img/short_three.jpg" width="300"> 
-<img src="img/short_four.jpg" width="300"> 
+<img src="img/tnw-screenshot.png" width="300"> 
 <br>
 
-In this project, our aim here wasn’t to produce an exact replica of the New York Times news page, but rather to focus on how to use positioning declarations in CSS. That means two things – laying out the basic structure of the page using semantic HTML elements and ensuring that the elements are appropriately sized and positioned.
+In this project, our aim here wasn’t to produce an exact replica of The Next Web homepage, but rather to focus on how to use media queries for responsiveness CSS.
 
-There are many elements on the New York Times page which are produced with Javascript but our objective in this project wasn't to give this page functionality, so except from a portion of the content where a youtube video is embedded, nothing nothing else is clickable.
+There are many elements on The Next Web homepage which are produced with Javascript but our objective in this project wasn't to give this page functionality.
 
 ## Built with
   * HTML 
-  * CSS (Box Model, Float, Grid, Flex and Positioning)
+  * CSS (Box Model, Float, Grid, Media Queries Flex and Positioning)
   * Lint (Stickler)
   * W3C Validator
 
 ## Live demo
-https://rawcdn.githack.com/teekaytech/NYT-Clone/3d46c3999e1611b07dec07fabb2edf87821cdf0e/index.html
-
+https://rawcdn.githack.com/teekaytech/tnw-clone/180b764f2a5fe383025fa4e91d758a149af4e040/index.html
 ## Getting started
-**For this project, we tried our best to recreate the New York Times web page. The main aim is to ensure the elements get placed and styled roughly the same way as the New York Times page, so functionality is not a priority.**
+**For this project, we tried our best to recreate The Next Web homepage. The main aim is to ensure responsiveness when the page is viewed on tablets and mobile phones using media queries, so functionality is not a priority.**
 
 We used the browser’s developer tools to inspect the real New York Times page to understand how elements are placed and styled.
 We built our own page in a .html text file and opened it in our browser to check it out. We carried out the following steps:
   - First setup a github repository for the project.
   - Then create a .html file where all our HTML markup will go
   - Create a .css file where all our styling code will reside
-  - Then open the New York Times web page on https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0, inspect its features with your browser's developer tools and start creating  :shipit:
+  - Then open the New York Times web page on https://thenextweb.com/, inspect its features with your browser's developer tools and start creating  :shipit:
 
 ## Authors
  :bust_in_silhouette: **Author 1**
@@ -39,9 +35,10 @@ We built our own page in a .html text file and opened it in our browser to check
  * LinkedIn: https://www.linkedin.com/in/teekaytech/
  
  :bust_in_silhouette: **Author 2**
- * Github: https://github.com/karthi07
- * Twitter: https://twitter.com/itkarthi02
- * LinkedIn: https://www.linkedin.com/in/karthickvenkadesan/
+ * Github: https://github.com/NiiazalyDzhumaliev/
+ * Twitter: https://twitter.com/Niiazaly1
+ * LinkedIn: /https://www.linkedin.com/in/niiazaly-dzhumaliev-117707132/
+
 
 ## Contributing
 Contributions, issues and feature requests are welcome!
@@ -52,7 +49,7 @@ Contributions, issues and feature requests are welcome!
    4. Push to the Branch (git push origin feature/AmazingFeature)
    5. Open a Pull Request
 
-Feel free to check the [issues page](https://github.com/teekaytech/NYT-Clone/issues).
+Feel free to check the [issues page](https://github.com/teekaytech/tnw-clone/issues).
 
 ## Show your support
 Give a :star: if you like this project!
